@@ -1,0 +1,1297 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&display=swap');
+@import url('https://fonts.cdnfonts.com/css/yeseva-one');
+
+body{
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+body * {
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 100px;
+}
+.button-light{
+    background: #E3B873;
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    color: white;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+}
+.button-transparent{
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: rgba(28,28,28,0)
+}
+
+.title1{
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Yeseva One', sans-serif;
+}
+
+.separator{
+    display: flex;
+    max-width: 160px;
+    margin: 0 auto;
+    justify-content: center;
+}
+    .separator1{
+        display: flex;
+    }
+        .stick{
+            margin: auto 9px;
+        }
+
+.header{
+    background-color: #131313;   
+}
+    .header-content{
+        display: flex;
+        justify-content: space-between;
+        height: 83px;
+        align-items: center;
+        padding: 0px 41px;
+    }
+        .logo{
+            color: #E3B873;
+            text-transform: uppercase;
+            margin-right: 95px;
+            min-width: 179px;
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 15px;
+        }
+        .header-navigation{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+        }
+            .header-navigation_item{
+                margin-right: 47px;
+            }
+                .header-navigation_link{
+                    text-decoration: none;
+                    color: white;
+                    font-weight: 400;
+                    font-size: 11px;
+                    line-height: 15px;
+                }
+                .selected-menu{
+                    color: #E3B873;
+                }
+                    .header-navigation_link:hover{
+                        color: #E3B873;
+                    }
+        .number{
+            min-width: 126px;
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 15px;
+            text-align: right;
+            text-decoration-line: underline;
+            color: #E3B873;
+            margin-left: 20px;
+        }
+        .request-a-call{
+            padding: 13px 33px;
+            margin-left: 45px;
+            text-transform: uppercase;
+            box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+        }
+    .img-hero{
+        background-image: url('../images/image-hero.jpg');
+        background-size: cover;
+        height: 707px;
+        padding-top: 194px;
+        position: relative;
+    }
+        .content{
+            position: relative;
+            z-index: 1;
+        }
+        .hero-overlay{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, .7);
+        }
+            .Turnkey-Repair{
+                font-size: 40px;
+                line-height: 53px;
+                max-width: 676px;
+                color: #FFFFFF;
+                margin: 0px 0px 19px 0px;
+            }
+                .subtitle1{
+                    color: #E3B873;
+                }
+            .text1-p{
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 36px;
+                color: #FFFFFF;
+                margin-top: 16px;
+            }
+            .caculate-the-cost{
+                min-height: 51px;
+                min-width: 207px;
+                box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+            }
+            .submit-your-application{
+                min-height: 51px;
+                min-width: 207px;
+                margin-left: 20px;
+
+            }
+    
+        .black-background{
+            background-color: #131313;
+            height: 1074px;
+        }
+            .completed-projects-navigation{
+                display: flex;
+                margin-top: 107px;
+                height: 27px;
+                list-style: none;
+                min-width: 623px;
+                max-width: 623px;
+                justify-content: space-between;
+            }
+            .slider__images{
+                margin-top: 45px;
+            }
+                .image{
+                    opacity: 0;
+                    position: absolute;
+                    transition: opacity 800ms ease;
+                }
+                    .image.active{
+                        opacity: 1;
+                    }
+                .main-completed-projects-item{
+                    font-family: 'Yeseva One', sans-serif;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 19px;
+                    text-transform: uppercase;
+                    color: rgba(255, 255, 255, 0.3);
+                    transition: 0.4s;
+                }
+                    .main-completed-projects-item.active{
+                        padding-bottom: 6px;
+                        border-bottom: 1px solid #E3B873;
+                        color: #E3B873 !important;
+                    }
+            .pre-container-completed-projects{
+                display: flex;
+                justify-content: space-between;
+            }
+                    .title-Completed-projects{
+                        font-size: 27px;
+                        line-height: 37px;
+                        letter-spacing: -0.07em;
+                        color: #E3B873;
+                        padding-top: 160px;
+                        margin: 0px;
+                    }
+                    .text2{
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 27px;
+                        color: #FFFFFF;
+                        margin: 0;
+                        padding-top: 34px;
+                    }
+                        .no-margin{
+                            padding: 0;
+                        }
+                    .mobile-image-completed-projects{
+                        display: none;
+                        margin: 36px auto;
+                        position: relative;
+                    }
+                        .mobile-image-completed-projects2{
+                            width: 100%;
+                            height: auto;
+                        }
+                            .slider__imagesMobile{
+                                width: 1062px;
+                                height: 761px;
+                            }
+                            .ellipses{
+                                position: absolute;
+                                display: flex;
+                                justify-content: space-between;
+                                padding: 0px 14px;
+                                width: 100%;
+                                top: calc(50% - 36px/2)
+                            }
+                                .ellipse-right-left{
+                                    width: 36px;
+                                    cursor: pointer;
+                                }
+                    .characteristics-completed-projects{
+                        display: flex;
+                        justify-content: space-between;
+                        padding-top: 42px;
+                        padding-bottom: 50px;
+                    }
+                            .characteristics2{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-between;
+                            }
+                                .title3{
+                                    font-family: 'Yeseva One';
+                                    font-weight: 400;
+                                    font-size: 18px;
+                                    line-height: 25px;
+                                    text-transform: uppercase;
+                                    color: #E3B873;
+                                }
+                                .text3{
+                                    font-family: 'Nunito Sans';
+                                    font-weight: 400;
+                                    font-size: 13px;
+                                    line-height: 21px;
+                                    color: #FFFFFF;
+                                    opacity: 0;
+                                    position: absolute;
+                                }
+                                    .text3.active{
+                                        opacity: 1;
+                                        position: static;
+                                    }
+                    .completed-projects-navigation-arrows{
+                        max-width: 275px;
+                        display: flex;
+                        justify-content: space-between;
+                        }
+                        .arrow-inner{
+                            height: 15px;
+                            cursor: pointer;
+                        }
+                            .slider__dots{
+                            display: flex;
+                            min-width: 83px;
+                            justify-content: space-between;
+                        }
+                            .slider__dots-item{
+                                width: 9.57px;
+                                height: 9.57px;
+                                border-radius: 30px;
+                                background-color: #FFFFFF4D;
+                                cursor: pointer;
+                                transition: background 0.4s ease;
+                            }
+                                .slider__dots-item:hover, .slider__dots-item.active {
+                                    background: #FFFFFF;
+                                  }
+                    
+                            .main-completed-projects-item{
+                                font-family: 'Yeseva One', sans-serif;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 19px;
+                                text-transform: uppercase;
+                                color: rgba(255, 255, 255, 0.3);
+                                cursor: pointer;
+                                }
+                    .img-completed-projects{
+                        padding-top: 47px;
+                    }
+
+    .online-conrol-margin{
+        margin-top: -416px;
+    }
+        .online-control{
+            max-width: 1440px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .online-conrol-mobile{
+            display: none ;
+        }
+            .title-online-control{
+                font-size: 20px;
+                line-height: 28px;
+                text-align: center;
+                margin-top: 92px;
+                color: #FFFFFF;
+            }
+            .online-control-video{
+                width: 817px;
+                height: 434px;
+                margin: 31px auto;
+                position: relative;
+                z-index: 2;
+                display: flex;
+                flex-direction: column;
+            }
+                .black{
+                    margin: 0;
+                    z-index: 3;
+                    position: absolute;
+                    background: rgba(0, 0, 0, 0.8);
+                }
+                .play{
+                    margin: 0 auto;
+                    z-index: 4;
+                    position: absolute;
+                    background-image: none;
+                    width: 168px;
+                    left: calc(50% - 168px/2);
+                }
+                .paragrapf-stick{
+                    
+                    margin: 31px auto 34px auto;
+                    width: 55px;
+                }
+                .text4{
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 37px;
+                    text-align: center;
+                    color: #363636;
+                }
+            .input{
+                display: flex;
+                flex-direction: row;
+                width: 769px;
+                justify-content: space-between;
+            }
+                .name-number-container{
+                    display: flex;
+                    flex-direction: column;
+                    padding-top: 75px;
+                    padding-bottom: 37px;
+                    margin: 0;
+                }
+                    .Name{
+                        font-weight: 400;
+                        font-size: 13px;
+                        line-height: 21px;
+                        color: rgba(54, 54, 54, 0.5);
+                    }
+                    .input-name-and-number{
+                        width: 231px;
+                        border: none;
+                        border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+                        outline: none;
+                    }
+                    .input-name-and-number::placeholder{
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 23px;
+                        color: #363636;
+                    }
+                    .submit{
+                        width: 200px;
+                        height: 51px;
+                        font-style: normal;
+                        padding: 0;
+                        margin-top: 73px;
+                        border-radius: 0;
+                    }
+            .first-checkbox{
+                margin: 0 auto;
+            }
+                    .label {
+                        cursor: pointer;
+                    }
+                        .checkbox{
+                            display: none;
+                        }
+                        .fake{
+                            display: inline-flex;
+                            width: 18px;
+                            height: 18px;
+                            background: #E3B873;
+                            color: #fff;
+                            justify-content: center;
+                        }
+                            .fake::before{
+                                content:"\2714";
+                                opacity: 0;
+                                transition: .2s;
+                                font-size: small;
+                            }
+                            .checkbox:checked + .fake::before{
+                                opacity: 1;
+                            }
+        .types-of-repair{
+            margin-top: 75px;
+        }
+            .title-types-of-repair{
+                font-size: 20px;
+                line-height: 28px;
+                text-align: center;
+                color: #181818;
+                margin: 0px 0px 13px 0px;
+            }
+            .types-of-repair-catalog{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 31px;
+            }
+                .types-of-repair-catalog-item{
+                    height: 629px;
+                }
+                    .types-of-repair-catalog-item-container{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    .types-of-repair-catalog-item1{
+                        max-width: 392px;
+                        height: 421px;
+                    }
+                        .types-of-repair-catalog-item-content{
+                            margin-top: -127px;
+                        }
+                            .types-of-repair-catalog-item-content-text{
+                                background-color: #FFFFFF;
+                                width: 330px;
+                                height: 286px;
+                                margin: 0 auto;
+                                
+                            }
+                                .title-types-of-repair-catalog-item{
+                                    margin: 0px auto auto 34px;
+                                    padding-top: 25px;
+                                    text-transform: none;
+                                    font-size: 18px;
+                                    line-height: 24.95px;
+                                }
+                                .list{
+                                    list-style: none;
+                                    padding: 0;
+                                    margin-left: 34px;
+                                }
+                                    .list li{
+                                        font-weight: 400;
+                                        font-size: 13px;
+                                        line-height: 27px;
+                                        color: #959595;
+                                    }
+                                .price{
+                                    padding: 17px;
+                                    width: 228px;
+                                    text-transform: uppercase;
+                                    font-family: 'Yeseva One';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 18px;
+                                    line-height: 25px;
+                                    border-radius: 0px;
+                                }
+                    .background-Redecorating{
+                        background-image: url('../images/redecorating.jpg');
+                    }
+                    .background-Overhaul{
+                        background-image: url('../images/overhaul.jpg');
+                    }
+                    .background-Designer-Repair{
+                        background-image: url('../images/designer-repair.jpg');
+                    }
+            .benifits-and-request-container{
+                display: flex;
+                margin-top: 230px;
+                justify-content: space-between;
+            }
+                .benfits{
+                    background-image: url('../images/city.png');
+                    width: 703px;
+                    height: 600px;
+                    margin-left: -100px;
+                }
+                    .benifits-list{
+                        display: flex;
+                        flex-direction: column;
+                        list-style-type: none;
+                        justify-content: space-between;
+                        width: 374px;
+                        height: 645px;
+                        padding: 0;
+                        margin: auto;
+                        margin-left: 250px;
+                        padding: 85px 0px;
+                    }
+                        .benifits-list-item{
+                            display: flex;
+                        }
+                            .item_marker{
+                                background-color: #E3B873;
+                                border: 8px solid #FFFFFF;
+                                box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+                                border-radius: 30px;
+                                width: 60px;
+                                height: 60px;
+                                align-items: center;
+                                justify-content: center;
+                                display: flex;
+                            }
+                                    .span{
+                                        color: #FFFFFF;
+                                    }
+                            .item_text{
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 19px;
+                                color: #363636;
+                                display: flex;
+                                align-items: center;
+                                padding-left: 13px;
+                            }      
+                    .request{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        margin-top: 85px;
+                        min-width: 506px;
+                        min-height: 509px;
+                        max-height: 509px;
+                        background: #131313;
+                        box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+                    }
+                        .text5{
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 26px;
+                            color: #FFFFFF;
+                            margin: 28px auto 28px;
+                            text-align: center;
+                        }
+                        .request-input{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            width: 408px;
+                            height: 244px;
+                        }
+                            .request-container{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-between;
+                                height: 482px;
+                            }
+                                .name-number-container-request{
+                                    display: flex;
+                                    flex-direction: column;
+                                }
+                                    .Name1{
+                                        font-weight: 400;
+                                        font-size: 13px;
+                                        line-height: 21px;
+                                        color: rgba(255, 255, 255, 0.5);
+                                    }
+                                    .input-name-and-number1{
+                                        width: 408px;
+                                        border: none;
+                                        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+                                        outline: none;
+                                        background-color: #131313;
+                                        color: #FFFFFF;
+                                    }
+                                    .placeholder-black::placeholder{
+                                        color: #FFFFFF;
+                                        font-weight: 400;
+                                        font-size: 14px;
+                                        line-height: 23px;
+                                    }
+                            .second-checkbox{
+                                width: 258px;
+                                margin-top: 10px
+                            }
+                                .label2 {
+                                    cursor: pointer;
+                                    display: flex;
+                                    justify-content: space-between;
+                                }
+                                    .checkbox2{
+                                        display: none;
+                                    }
+                                    .fake2{
+                                        display: inline-flex;
+                                        width: 18px;
+                                        height: 18px;
+                                        background: #E3B873;
+                                        color: #fff;
+                                        justify-content: center;
+                                    }
+                                        .fake2::before{
+                                            content:"\2714";
+                                            opacity: 0;
+                                            transition: .2s;
+                                            font-size: small;
+                                        }
+                                        .checkbox2:checked + .fake2::before{
+                                            opacity: 1;
+                                        }
+                            .button-container{
+                                text-align: right;
+                            }
+                                .сall-the-measurer{
+                                    min-width: 213px;
+                                    min-height: 51px;
+                                    max-width: 213px;
+                                    max-height: 51px;
+                                    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+                                    text-transform: uppercase;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 13px;
+                                    line-height: 21px;
+                                }
+                .symbol-container{
+                    display: flex;
+                    margin-top: 38px;
+                    height: 72px;
+                    align-items: center;
+                    padding-left: 31px;
+                }
+                    .symbol{
+                        background: #E3B873;
+                        width: 72px;
+                        height: 72px;
+                        display: flex;
+                        justify-content: center;
+                        box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2);
+                        border-radius: 50%;
+                    }
+                        .image-symbol{
+                            width: 40px;
+                        }
+                    .text-symbol{
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 26px;
+                        color: #E3B873;
+                        text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+                        margin: 0px 0px 0px 25px;
+                    }
+            .wildest-fantasies{
+                background-image: url('../images/image-fantasies.jpg');
+                background-size: cover;
+                margin-top: 242px;
+                height: 864px;
+                position: relative;
+            }
+                .content1{
+                    position: relative;
+                    z-index: 1;
+                }
+                .wildest-fantasies-container{
+                    display: flex;
+                    justify-content: space-between;
+                }
+                    .text-container{
+                        width: 299px;
+                    }
+                        .wildest-fantasies1{
+                            font-size: 27px;
+                            line-height: 37px;
+                            color: #E3B873;
+                            padding-top: 137px;
+                            margin: 0;
+                        }
+                        .wildest-fantasies1-mobile{
+                            display: none;
+                        }
+                        .wildest-fantasies-list{
+                            list-style: none;
+                            padding: 0;
+                            height: 516px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            margin: 47px 0px 0px 0px;
+                        }
+                            .wildest-fantasies-list-item{
+                                font-weight: 400;
+                                font-size: 20px;
+                                line-height: 38px;
+                                color: #FFFFFF;
+                                width: max-content;
+                                height: 33px;
+                            }
+                                .selected-disign{
+                                    color: #E3B873;
+                                    border-bottom: 1px solid #E3B873;
+                                }
+                    .image-mobile{
+                        display: none;
+                    }
+                    .image-container-wildest-fantasies{
+                        display: flex;
+                        justify-content: space-between;
+                        width: 751px;
+                    }
+                        .image-container1-wildest-fantasies{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            height: 945px;
+                            margin-top: -41px;
+                        }
+                            .image-clocks{
+                                width: 354px;
+                                height: 557px;
+                            }
+                            .image-tv{
+                                width: 354px;
+                                height: 349px;
+                            }
+                        .image-container2-wildest-fantasies{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            height: 936px;
+                            margin-top: -112px;
+                        }
+                            .image-sofa{
+                                width: 354px;
+                                height: 275px;
+                            }
+                            .image-table{
+                                width: 354px;
+                                max-width: 624px;
+                            }
+                .wildest-fantasies-overlay{
+                    content: "";
+                    position: absolute;
+                    top: 0px;
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(109.8deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
+                }
+            .our-clients{
+                margin-top: 110px;
+            }
+                .text-container2{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    align-items: center;
+                }
+                    .our-clients-title{
+                        margin: 0;
+                    }
+                    .our-clients-separator{
+                        margin-top: 13px;
+                    }
+                    .text6{
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 29px;
+                        color: #363636;
+                        margin: 24px auto 0 auto;
+                    }
+                .clients-container{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 63px;
+                }
+                    .clients-container-item{
+                        display: flex;
+                        flex-direction: column;
+                        width: 428px;
+                        height: 435px;
+                    }
+                        .clients-container1{
+                            padding-left: 20px;
+                        }
+                        .clients-container-item-photo-and-name{
+                            display: flex;
+                        }
+                            .photo-of-item{
+                                height: 76px;
+                                width: 76px;
+                                border-radius: 50%;
+                            }
+                            .title4{
+                                font-family: 'Yeseva One';
+                                font-weight: 400;
+                                font-size: 18px;
+                                line-height: 23px;
+                                color: #181818;
+                                padding-left: 23px;
+                            }
+                            .clients-container-item-text-p{
+                                font-family: 'Nunito Sans';
+                                font-weight: 400;
+                                font-size: 13px;
+                                line-height: 180%;
+                                color: #959595;
+                            }
+                        .clients-container-item-span{
+                            background-color: #E3B873;
+                            width: 293px;
+                            min-height: 54px;
+                            margin-top: 63px;
+                            display: flex;
+                        }
+                            .clients-container-item-span1{
+                                display: flex;
+                                justify-content: space-evenly;
+                                width: 135px;
+                                align-items: center;
+                            }
+                                .clients-container-item-span-image{
+                                    width: 32px;
+                                    height: 32px;
+                                }
+                                .clients-container-item-span-text{
+                                    font-family: 'Yeseva One';
+                                    font-weight: 400;
+                                    font-size: 17px;
+                                    line-height: 24px;
+                                    text-transform: uppercase;
+                                    color: #FFFFFF;
+                                }
+                            .border-span{
+                                border-left: 0.75px solid #FFFFFF;
+                                width: 158px;
+                            }
+            .contacts-and-map{
+                height: 953px;
+                background-image: url('../images/image-section-contacts-and-map.jpg');
+                margin-top: 354px;
+                background-size: cover;
+                position: relative;
+            }
+                .contacts-and-map-container{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                }
+                    .have-any-questions{
+                        background-color: #181818;
+                        width: 883px;
+                        height: 445px;
+                        margin-top: -222px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                        .have-any-questions-title{
+                            font-size: 20px;
+                            line-height: 28px;
+                            color: #FFFFFF;
+                            text-align: center;
+                            margin: 34px auto 45px auto;
+                        }
+                        .have-any-questions-2-inputs{
+                            display: flex;
+                            justify-content: center;
+                            flex-direction: column;
+                        }
+                            .have-any-questions-2input-container{
+                                display: flex;
+                                justify-content: space-between;
+                            }
+                                .have-any-questions-2input{
+                                    display: flex;
+                                    flex-direction: column;
+                                }
+                                    .Name2{
+                                        font-weight: 400;
+                                        font-size: 13px;
+                                        line-height: 21px;
+                                        color: rgba(255, 255, 255, 0.5);
+                                    }
+                                    .input-name-and-number2{
+                                        width: 231px;
+                                        outline: none;
+                                        border: none;
+                                        background-color: #181818;
+                                        color: #FFFFFF;
+                                        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+                                    }
+                            .one-input{
+                                margin: 48px 0px;
+                            }
+                                .new-width{
+                                    width: 516px;
+                                }
+                        .third-checkbox{
+                            width: 285px;
+                        }
+                        .second-submit{
+                            margin-top: 50px;
+                            box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
+                        }
+                    .contacts{
+                        margin-top: 50px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                        .contacts-title{
+                            margin: 0;
+                            font-size: 20px;
+                            line-height: 28px;
+                            color: #E3B873;
+                            text-align: center;
+                        }
+                        .social-networks{
+                            margin-top: 26px;
+                            width: 71px;
+                            display: flex;
+                            justify-content: space-between
+                        }
+                            .image-contacts{
+                                height: 28px;
+                                width: 28px;
+                            }
+                    .map{
+                        margin-top: 43px;
+                    }
+                .contacts-and-map-overlay{
+                    content: "";
+                    position: absolute;
+                    top: 0px;
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
+                }
+        .contacts-and-map-mobile{
+            display: none;
+        }
+.footer{
+    background-color: #131313;
+}
+    .footer-content{
+        height: 133px;
+    }
+
+
+    @media screen and (max-width: 1299px) {
+        .container{
+            padding: 0px 18px;
+        }
+    
+        .header-content{
+            height: 57px;
+        }
+            .logo{
+                margin: 0;
+            }
+            .header-navigation{
+                display: none;
+            }
+            .number{
+                text-decoration-line: none;
+                color: #FFFFFF;
+                margin: 0;
+                min-width: auto;
+            }
+            .request-a-call{
+                display: none;
+            }
+        .img-hero{
+            padding-top: 85px;
+            height: 100% ;
+        }
+            .img-hero-content{
+                display: flex;
+                flex-direction: column;
+            }
+                .Turnkey-Repair{
+                    font-size: 23px;
+                    line-height: 30.55px; 
+                }
+                .text1-p{
+                    margin: 0;
+                    line-height: 19.02px;
+                }
+                    .br{
+                        display: none;
+                    }
+                .caculate-the-cost{
+                    margin-top: 32px;
+                }
+                .submit-your-application{
+                    margin: 26px 0px 61px;
+                    width: 100%;
+                }
+        .black-background{
+            height: 100%;
+        }
+            .pre-container-completed-projects{
+                flex-direction: column;
+                align-items: center;
+            }
+            .text-completed-projects{
+                width: 100%;
+            }
+                .title-Completed-projects{
+                    padding-top: 36px;
+                    text-align: center;
+                    font-size: 22px;
+                    line-height: 30.49px;
+                }
+                .text2{
+                    text-align: center;
+                    padding-top: 0px;
+                    margin-top: 22px;
+                    line-height: 17.43px;
+                    height: 86px;
+                }
+                .mobile-image-completed-projects{
+                    display: flex;
+                    flex-direction: column;
+                }
+                .characteristics-completed-projects{
+                    padding: 0px;
+                    justify-content: space-evenly;
+                }
+                    .characteristics2{
+                        height: 139px;
+                    }
+                        .title3{
+                            margin: 0px 0px 11px;
+                            font-size: 14px;
+                            line-height: 19.4px;
+                        }
+                        .text3{
+                            font-size: 11px;
+                            line-height: 14.94px;
+                        }
+            .completed-projects-navigation-and-img{
+                display: none;
+            }
+            .completed-projects-navigation-arrows{
+                display: none;
+            }
+        .online-control{
+            display: none;
+        }
+        .online-conrol-mobile{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+            .title-online-control{
+                margin: 58px 0px 19px;
+                font-size: 22px;
+                line-height: 30.49px;
+            }
+            .online-control-videocamera{
+                margin-bottom: 40px;
+            }
+            .online-control-video{
+                margin: 0 auto;
+                width: 100%;
+                height: auto;
+            }
+                .black{
+                    height: 100%;
+                }
+                .play{
+                    display: flex;
+                    position: absolute;
+                    width: 88px;
+                    left: calc(50% - 88px/2);
+                    top: calc(50% - 88px/2);
+                }
+            .paragrapf-stick{
+                margin: 28px auto 21px;
+            }
+            .text4{
+                font-size: 11px;
+                line-height: 18.68px;
+                color: #FFFFFF;
+                margin: 0;
+                height: 106px;
+            }
+            .name-number-container{
+                padding: 61px 0px 0px;
+            }
+                .Name{
+                    color: #FFFFFF80;
+                }
+                .input-name-and-number{
+                    background-color: #131313;
+                    border-bottom: 1px solid #FFFFFF;
+                    color: #FFFFFF;
+                    width: 100%;
+                }
+                    .input-name-and-number::placeholder{
+                        color: #FFFFFF;
+                    }
+                .first-checkbox{
+                    margin-top: 26px;
+                }
+                    .text{
+                        color: #FFFFFF;
+                    }
+                .submit{
+                    margin: 36.5px auto 0px;
+                }
+                .submit-transform{
+                    transform: translate(0, 50%);
+                }
+        .types-of-repair{
+            margin-top: 493px;
+        }
+        .types-of-repair-catalog{
+            flex-direction: column;
+            margin-top: 40px;
+        }
+            .types-of-repair-catalog-item{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+                .types-of-repair-catalog-item1{
+                    width: 340px;
+                }
+                .title-types-of-repair-catalog-item{
+                    font-size: 15px;
+                    line-height: 20.79px;
+                }
+                .types-of-repair-catalog-item-content-text{
+                    margin: 0;
+                    width: 270px;
+                    height: 241px;
+                }
+                    .list li{
+                        line-height: 22.07px    ;
+                    }
+                .price{
+                    font-size: 15px;
+                    padding: 11px;
+                }
+        .benifits-and-request{
+            display: none;
+        }
+        .wildest-fantasies{
+            background-image: none;
+            margin: 0;
+            height: auto;
+        }
+            .wildest-fantasies-container{
+                flex-direction: column;
+            }
+                .wildest-fantasies1{
+                    display: none;
+                }
+                .text-container{
+                    width: 100%;
+                }
+                .wildest-fantasies-list{
+                    display: none;
+                }
+                .image-container-wildest-fantasies{
+                    display: none;
+                }
+                .wildest-fantasies1-mobile{
+                    color: #E3B873;
+                    font-size: 22px;
+                    line-height: 30.49px;
+                    padding: 0;
+                    text-align: center;
+                    margin: 0 auto;
+                    height: 66px;
+                    margin-bottom: 24px;
+                }
+                .image-mobile{
+                    position: relative;
+                    display: flex;
+                }
+                .slider{
+                    background: linear-gradient(#FFFFFF 50%, #131313 50%);
+                }
+                    .image-mobile2{
+                        width: 100%;
+                        height: auto;
+                    }
+            .wildest-fantasies-overlay{
+                display: none;
+            }
+        .our-clients{
+            display: none;
+        }
+        .contacts-and-map{
+            display: none;}
+        .contacts-and-map-mobile{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            background-color: #181818;
+            
+        }
+        .contacts-and-map-container{
+            margin-top: 52px;
+        }
+            .have-any-questions-title{
+                margin: 0;
+            }
+            .have-any-questions-2input{
+                width: 100%;
+            }
+            .one-input{
+                margin: 52px 0px 0px;
+            }
+                .input-name-and-number2{
+                    width: 100%;
+                    border-bottom: 1px solid #FFFFFF;
+                }
+                .third-checkbox{
+                    width: 100%;
+                    margin-top: 21px;
+                }
+                    .label2{
+                        justify-content: flex-start;
+                    }
+                    .text-third-checkbox{
+                        font-size: 14px;
+                        line-height: 22.92px;
+                        margin-left: 8px;
+                        color: #FFFFFF;
+                    }
+                .submit{
+                    width: 100%;
+                }
+                .second-submit{
+                    margin: 67px 0px 0px;
+                }
+            .map{
+                width: 100%;
+                margin: 46px 0px 41px;
+            }
+            .contacts-title{
+                font-size: 18px;
+                line-height: 24.95px;
+            }
+            .social-networks{
+                width: 98px;
+            }
+                .image-contacts{
+                    width: 39px;
+                    height: 39px;
+                }
+        .footer{
+            display: none;
+        }
+    }
+
+    
